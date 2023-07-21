@@ -8,6 +8,12 @@
     margin: auto;
     border: 1px solid #000 ;
     padding: 1%;
+    margin-top: 2%;
+}
+#main>p,#order>p{
+    color: blue;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
 }
 #inner{
     border: 1px solid blue;
@@ -27,6 +33,10 @@
     gap: 20%;
 
 }
+
+.medium>div>i:first-child,.large>div>i:first-child{
+    color:gray
+}
 .fa-pizza-slice,.iconscont p{
     width: 6%;
     color: blue;
@@ -37,8 +47,48 @@
 
 }
 .fa-circle-plus{
-    background: red;
-    color: #fff;
-    padding: 5px;
-    border-radius: 50%;
+    color: red;
+  font-size: 25px;
+   
+}
+.fa-circle-minus{
+    color: rgb(21, 14, 238);
+    font-size: 25px;
+
+   
+}
+#adults,#children{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    border-top: 1px solid gray;
+    padding-top: 5%;
+    color: blue;
+}
+#order{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    color: blue;
+}
+#order>p:last-child{
+    color:#333
+}
+span{
+    font-weight: 700;
+    
+}
+
+#adr,#chr{
+   display: flex;
+   justify-content: space-between;
+   gap: 20%;
+   margin-right: 5%;
+   font-size:1.2rem;
+
+}
+
+#adr>span,#chr{
+    color: gray;
+
 }
